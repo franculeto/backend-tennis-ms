@@ -1,0 +1,46 @@
+{
+  "name": "backend-tennis-ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node --inspect src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "swagger-ui-express": "^4.0.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "copyfiles": "^2.1.0",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^2.4.1",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "rimraf": "^2.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franculeto/backend-tennis-ms.git"
+  },
+  "author": "Franco Aronne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franculeto/backend-tennis-ms/issues"
+  },
+  "homepage": "https://github.com/franculeto/backend-tennis-ms#readme"
+}
